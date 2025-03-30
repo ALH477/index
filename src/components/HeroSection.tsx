@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Robot } from 'lucide-react';
+import { Bot } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -25,7 +25,7 @@ const HeroSection = () => {
             <div className="relative animate-fade-in-right">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-demod to-demod-light rounded-full blur opacity-30"></div>
               <div className="relative bg-white p-10 rounded-full border-2 border-demod-light/50">
-                <Robot size={240} className="text-demod" />
+                <Bot size={240} className="text-demod" />
               </div>
             </div>
           </div>

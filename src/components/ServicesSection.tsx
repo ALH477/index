@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Lock, Robot, Drone, Leaf, Computer, Shield } from 'lucide-react';
+import { Lock, Bot, PlaneTakeoff, Leaf, Computer, Shield } from 'lucide-react';
 
 const services = [
   {
@@ -9,12 +9,12 @@ const services = [
     description: 'Protect your sensitive information with secure, AI-driven destruction services.'
   },
   {
-    icon: <Robot size={28} />,
+    icon: <Bot size={28} />,
     title: 'AI Agents',
     description: 'Boost efficiency with smart, user-friendly AI agents tailored to your business.'
   },
   {
-    icon: <Drone size={28} />,
+    icon: <PlaneTakeoff size={28} />,
     title: 'Drone Imaging',
     description: 'Capture the big picture with advanced drone imaging solutions.'
   },
